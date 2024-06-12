@@ -55,7 +55,7 @@ A brief report explaining the model architecture, training process, and results.
 Instructions on how to use the visualization interface.
 Visualization:
 
-A lnotebook demonstrating the interactive visualization.
+A notebook demonstrating the interactive visualization.
 Table of Contents
 1. Introduction
 2. Dataset
@@ -70,29 +70,29 @@ Table of Contents
 
    ### MNIST Dataset and Create a Visualization
 
-1. Introduction
+# 1. Introduction
 Handwritten digit recognition is a fundamental problem in the field of machine learning and computer vision. The MNIST dataset, consisting of 60,000 training images and 10,000 test images of handwritten digits, has been a benchmark dataset for decades. This project explores the use of Convolutional Neural Networks (CNNs) to classify these digits.
 
-2. Dataset
+# 2. Dataset
 The MNIST dataset consists of grayscale images of handwritten digits (0-9), each of size 28x28 pixels. It is split into 60,000 training images and 10,000 test images. The images are preprocessed by scaling the pixel values to the range [0, 1].
 
-3. Model Architecture
+# 3. Model Architecture
 The CNN architecture includes convolutional layers, batch normalization, dropout for regularization, and fully connected layers for classification.
 
-4. Data Preprocessing and Augmentation
+# 4. Data Preprocessing and Augmentation
 Data augmentation is applied to the training images to improve model generalization. This includes rotation, width and height shifts, zoom, and shear transformations.
 
-5. Training Strategy
+# 5. Training Strategy
 The model is compiled with the Adam optimizer and categorical cross-entropy loss function. A learning rate scheduler adjusts the learning rate during training epochs.
 
-6. Evaluation
+# 6. Evaluation
 The model is evaluated on the test set to measure its accuracy and performance.
 
-7. Visualization
+# 7. Visualization
 Visualization of the training process includes plots of accuracy and loss over epochs, as well as a confusion matrix to visualize classification performance.
 
-8. Conclusion
+# 8. Conclusion
 This project demonstrates the effectiveness of CNNs in classifying handwritten digits from the MNIST dataset. The model achieves a high accuracy rate on the test set after training with data augmentation, batch normalization, and dropout. The visualization of training dynamics and model performance metrics provides valuable insights into its behavior.
 
-9. Future Work
+# 9. Future Work
 Future work could focus on exploring more advanced architectures, hyperparameter tuning, and ensemble methods to further improve classification accuracy. Additionally, deploying the model in a production environment or integrating it into a web application for digit recognition could be explored.
